@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Share this study | Women's Entrepreneurship in Nigeria's High-Growth Sectors</title>
+<meta name="description" content="Help share the study: the text to forward and how to share it appropriately.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!-- Before launch: replace this Google Fonts link with a self-hosted copy of Source Serif 4 (600, regular and italic). -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,600&amp;display=swap">
+<link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body>
+<a class="rs-skip" href="#main">Skip to content</a>
+<header class="rs-header"><div class="rs-wrap rs-header-inner">
+  <a class="rs-brand" href="index.html"><span class="rs-brand-name">Women's Entrepreneurship in Nigeria's High-Growth Sectors</span><span class="rs-brand-aff">PhD research &middot; Henley Business School, University of Reading</span></a>
+  <nav aria-label="Main"><ul class="rs-nav"><li><a href="index.html">Home</a></li><li><a href="participate.html">Participate</a></li><li><a href="about-the-study.html">About the study</a></li><li><a href="about-the-researcher.html">About the researcher</a></li><li><a href="share.html" aria-current="page">Share</a></li></ul></nav>
+</div></header>
+<main id="main">
+<section class="rs-opening"><div class="rs-wrap"><div class="rs-center">
+  
+  <h1 class="rs-serif rs-h1">Share <span class="rs-accent">this study</span></h1>
+  <p class="rs-lead">Thank you for helping to share this study. To protect people's freedom to choose and their confidentiality, please forward the invitation unchanged to people who may meet the criteria. Please do not send me anyone's name or contact details without that person's permission, and do not ask anyone to tell you whether they responded.</p>
+  
+</div></div></section>
+<section style="padding-bottom:var(--space-16)"><div class="rs-wrap"><div class="rs-stack-lg" style="max-width:44rem;margin-inline:auto">
+  <div class="rs-card"><h2 class="rs-serif rs-h3">Please follow these safeguards</h2>
+  <ul class="rs-list">
+    <li>Make clear that participating is voluntary and unrelated to employment, funding, investment, programme access, membership, regulation or other benefits.</li>
+    <li>Invite interested people to contact me directly.</li>
+  </ul></div>
+  <div class="rs-stack"><h2 class="rs-serif rs-h3">Text you can forward</h2>
+  <div class="rs-copy">
+    <p id="forward-text">You are invited to consider a University of Reading PhD study on women's differentiated access to and participation in selected high-growth sectors in Nigeria. The study is seeking women entrepreneurs, ecosystem practitioners, and policy or sector informants with direct relevant experience. Participation is voluntary. If you are interested, please contact Mary Ukam directly at mary.ukam@pgr.reading.ac.uk or visit <span class="site-url">this study's website</span>. Please do not send confidential information in your first message. The researcher will provide a short eligibility questionnaire and the study information.</p>
+    <div class="rs-actions"><button class="rs-btn rs-btn-primary" type="button" data-copy="forward-text">Copy this text</button><button class="rs-btn rs-btn-secondary" type="button" data-copy-url>Copy the website link</button><span class="rs-small" role="status" id="copy-status"></span></div>
+  </div></div>
+</div></div></section>
+<script>
+(function () {
+  var home = new URL('index.html', location.href).href;
+  document.querySelectorAll('.site-url').forEach(function (el) { el.textContent = home; });
+  var status = document.getElementById('copy-status');
+  function copy(text) {
+    if (!navigator.clipboard) { status.textContent = 'Select the text to copy it'; return; }
+    navigator.clipboard.writeText(text).then(function () { status.textContent = 'Copied'; }, function () { status.textContent = 'Select the text to copy it'; });
+  }
+  document.querySelector('[data-copy]').addEventListener('click', function () { copy(document.getElementById('forward-text').textContent); });
+  document.querySelector('[data-copy-url]').addEventListener('click', function () { copy(home); });
+})();
+</script>
+
+</main>
+<footer class="rs-footer"><div class="rs-wrap rs-footer-grid">
+  <div><p>PhD research at Henley Business School, University of Reading, UK.</p><p class="rs-independence">This is an independent doctoral research study. It is not affiliated with, sponsored or endorsed by any conference, organisation or programme.</p></div>
+  <div><p>This study has received a favourable ethical approval from the Ethics Office, Henley Business School, University of Reading.</p><p>Contact: <a href="mailto:mary.ukam@pgr.reading.ac.uk">mary.ukam@pgr.reading.ac.uk</a></p></div>
+  <nav aria-label="Footer"><p><a href="participate.html">Participate</a></p><p><a href="about-the-study.html">About the study</a></p><p><a href="about-the-researcher.html">About the researcher</a></p><p><a href="share.html">Share this study</a></p><p><a href="privacy.html">Privacy and data</a></p></nav>
+</div></footer>
+</body>
+</html>
